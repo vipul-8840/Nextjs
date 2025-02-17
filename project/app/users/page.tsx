@@ -6,20 +6,20 @@
 //   title: string;
 //   completed: boolean;
 //  }
-export default  async function User() {
+// export default  async function User() {
   
  
   //  const response  = await fetch("https://jsonplaceholder.typicode.com/todos/");
   //  const data :todo[] = await  response.json() ;
   
     
-  const response  = await fetch("http://localhost:3000/api/v1/users/details");
-    const data  = await  response.json() ;
+  // const response  = await fetch("http://localhost:3000/api/v1/users/details");
+  //   const data  = await  response.json() ;
   
  
-    return (
-            <div>
-               <h2>User Page</h2>
+    // return (
+            // <div>
+            //    <h2>User Page</h2>
                 {/* {data.map((todo) => (
                   <div key={todo.id}>
                     <p>User ID: {todo.userId}</p>
@@ -28,11 +28,11 @@ export default  async function User() {
                   </div>
                 ))} */}
 
-                {data.email}
-                {data.password}
-            </div>
+                {/* {data.email}
+                {data.passwordd}
+            </div> */}
   
           
-    );
-  }
+  //   );
+  // }
   
